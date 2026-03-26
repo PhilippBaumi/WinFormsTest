@@ -16,7 +16,7 @@ namespace WinFormsTest
             if (dates.Count == 1)
             {
                 ListViewItem item= dates[0];
-                MessageBox.Show(item.Text,"Datum gewählt", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Du hast den "+item.Text+" gewählt! ","Datum gewählt", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
